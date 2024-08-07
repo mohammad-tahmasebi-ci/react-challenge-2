@@ -14,9 +14,9 @@ class NavBar extends React.Component{
 
     greetUser() {
         this.setState((prevState) => {
-            console.log('old greeting', prevState.greeting);
-            console.log('old name', prevState.name);
-            console.log('old buttonText', prevState.buttonText);
+            console.log('new greeting', this.state.greeting);
+            console.log('new name', this.state.name);
+            console.log('new buttonText', this.state.buttonText);
             return {
                 greeting: prevState.greeting === "Hello, " ? "Welcome back, " : "Hello, ",
                 name: prevState.name === "guest!" ? "user!" : "guest!",

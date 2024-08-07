@@ -16,10 +16,8 @@ span {
 
 .greeting {
     flex: 1;
-    width: 75%;
 }
 
 .Button {
-    flex: 1;
-    width: 25%;
+    flex: 0;
 }
