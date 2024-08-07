@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+span {
+    border: 1px solid red;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.greeting {
+    flex: 1;
+    width: 75%;
+}
+
+.Button {
+    flex: 1;
+    width: 25%;
+}
